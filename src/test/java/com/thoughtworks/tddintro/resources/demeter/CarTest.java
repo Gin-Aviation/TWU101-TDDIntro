@@ -1,5 +1,6 @@
 package com.thoughtworks.tddintro.resources.demeter;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.mockito.Mockito.mock;
@@ -9,6 +10,7 @@ import static org.mockito.Mockito.when;
 public class CarTest {
 
   @Test
+  @Ignore
   public void shouldOpenValveWhenAccelerating() {
     Valve valve = mock(Valve.class);
 
